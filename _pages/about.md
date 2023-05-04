@@ -17,23 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a first-year doctoral student from [School of Software](http://ssdut.dlut.edu.cn/), [DALIAN UNIVERSITY OF TECHNOLOGY](https://www.dlut.edu.cn/). My research interest includes computer vision and machine learning.
+I'm a first-year doctoral student from [School of Software](http://ssdut.dlut.edu.cn/), [DALIAN UNIVERSITY OF TECHNOLOGY](https://www.dlut.edu.cn/).   
+
+My research interest includes computer vision and machine learning.
 
 
 # 🔥 News
-- *2023.02*: &nbsp;🎉🎉 One paper is accepted by ICASSP 2023. 
+- *2023.02*: &nbsp;🎉 One paper is accepted by ICASSP 2023. 
 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/eenaic-icassp2023.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[End-to-End Non-Autoregressive Image Captioning](https://liu-yuanqiu.github.io/)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Hong Yu, **Yuanqiu Liu**, Baokun Qi, Zhaolong Hu, Han Liu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Code**](https://github.com/Liu-Yuanqiu/EENAIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+Most of the existing image captioning models use the autoregressive approach to generate captions, which leads to high latency in the inference process. Non-autoregressive decoding generates words in parallel, which greatly improves the model inference speed. However, non-autoregressive decoding usually leads to performance loss due to the loss of word input. In this paper, we propose a semantic retrieval module that uses image features to retrieve semantic information as input of the non-autoregressive decoder, narrowing the performance gap between the non-autoregressive and the autoregressive model. Furthermore, we adopt Swin-Transformer instead of Faster R-CNN to extract image features, thus building an end-to-end image caption model. Experiments conducted on the MSCOCO dataset show that our model achieves new state-of-the-art performances of 122.6% CIDEr score on the 'Karpathy' offline test split with 37× inference speedup.
 </div>
 </div>
 
