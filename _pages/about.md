@@ -48,8 +48,7 @@ Most of the existing image captioning models use the autoregressive approach to 
 - *2022.09* 昇腾AI创新大赛大连赛区-金奖 
 
 # 📖 Educations
-- *2022.09 - present*, PhD, School of Software, Dalian University of Technology. 
-- *2020.09 - 2022.06*, Master, School of Software, Dalian University of Technology. 
+- *2020.09 - present*, Ph.D., School of Software, Dalian University of Technology. 
 - *2016.09 - 2020.06*, Undergraduate, School of Software, Dalian University of Technology. 
 
 # 💬 Invited Talks
