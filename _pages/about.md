@@ -34,7 +34,8 @@ My research interest includes computer vision and machine learning.
 
 Hong Yu, **Yuanqiu Liu**, Baokun Qi, Zhaolong Hu, Han Liu
 
-[**Code**](https://github.com/Liu-Yuanqiu/EENAIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/Liu-Yuanqiu/EENAIC)  
+  
 Most of the existing image captioning models use the autoregressive approach to generate captions, which leads to high latency in the inference process. Non-autoregressive decoding generates words in parallel, which greatly improves the model inference speed. However, non-autoregressive decoding usually leads to performance loss due to the loss of word input. In this paper, we propose a semantic retrieval module that uses image features to retrieve semantic information as input of the non-autoregressive decoder, narrowing the performance gap between the non-autoregressive and the autoregressive model. Furthermore, we adopt Swin-Transformer instead of Faster R-CNN to extract image features, thus building an end-to-end image caption model. Experiments conducted on the MSCOCO dataset show that our model achieves new state-of-the-art performances of 122.6% CIDEr score on the 'Karpathy' offline test split with 37× inference speedup.
 </div>
 </div>
